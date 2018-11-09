@@ -3,8 +3,8 @@ const client = new Discord.Client();
 var prefix = "+";
 client.on('message', message => {
     if (message.content == "^fast") {
-        var x = ["DreamKing",
-"DeathGames",
+        var x = ["OBX KINGDOOM",
+"OBX GAMES",
 "زيرو كنج",
 "أرض الأحلام",
 "ألبرازيل",
@@ -22,8 +22,8 @@ client.on('message', message => {
 "هلا بلخميس",
 "الحوت الأزرق",
 ];
-        var x2 = ['DreamKing',
-        "DeathGames",
+        var x2 = ['OBX KINGDOOM',
+        "OBX GAMES",
         "زيرو كنج",
         "أرض الأحلام",
 		"ألبرازيل",
@@ -77,7 +77,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Dream | ${client.guilds.size} ${client.users.size} servers/user`,"http://twitch.tv/YouTube")
+client.user.setGame(`OBX Games , ${client.guilds.size} ${client.users.size} servers/user`,"http://twitch.tv/akrame35")
 client.user.setStatus("dnd")
 });
 
